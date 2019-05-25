@@ -81,6 +81,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.6.2"
+  path_provider:
+    dependency: transitive
+    description:
+      name: path_provider
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.4.1"
   pedantic:
     dependency: transitive
     description:
@@ -95,6 +102,22 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.2"
+  share:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "1f8b139ca0bd35b643ef4f5ccce3a1b09931f16a"
+      url: "https://github.com/d-silveira/flutter-share.git"
+    source: git
+    version: "0.6.0"
+  simple_share:
+    dependency: "direct main"
+    description:
+      name: simple_share
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.1+4"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -158,3 +181,4 @@ packages:
     version: "2.0.8"
 sdks:
   dart: ">=2.2.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"

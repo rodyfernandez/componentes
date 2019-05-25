@@ -26,6 +26,7 @@ class _FilePickerPageState extends State<FilePickerPage> {
   loadAsset() async {
     final myData = await rootBundle.loadString(_path);
     List<List<dynamic>> csvTable = CsvToListConverter().convert(myData);
+    
 
     data = csvTable;
   }

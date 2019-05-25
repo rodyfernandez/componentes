@@ -4,6 +4,8 @@ import 'package:componentes/src/pages/card_pages.dart';
 import 'package:componentes/src/pages/csv_page.dart';
 import 'package:componentes/src/pages/filepicker_page.dart';
 import 'package:componentes/src/pages/home_page.dart';
+import 'package:componentes/src/pages/share_page.dart';
+import 'package:componentes/src/pages/simpleshare_page.dart';
 import 'package:componentes/src/pages/table_page.dart';
 import 'package:flutter/cupertino.dart';
 
@@ -18,6 +20,8 @@ return  <String, WidgetBuilder>{
           'csv'    : (BuildContext context) => CsvPage(),
           'table'    : (BuildContext context) => TablePage(),
           'filepicker'    : (BuildContext context) => FilePickerPage(),
+          'share'    : (BuildContext context) => SharePage(),
+          'simpleshare'    : (BuildContext context) => SimpleSharePage(),
           
 
         };

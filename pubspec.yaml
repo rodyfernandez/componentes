@@ -24,7 +24,11 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   csv:
-  file_picker: ^1.3.4+1 
+  file_picker: ^1.3.4+1
+  simple_share: ^0.0.1+4
+  share:
+    git:
+     url: https://github.com/d-silveira/flutter-share.git
 
 
 dev_dependencies:

@@ -31,7 +31,19 @@
             "ruta" : "filepicker",
             "icon" : "add_alert",
             "texto": "Abrir Archivo"
+        },
+        {
+            "ruta" : "share",
+            "icon" : "add_alert",
+            "texto": "Share"
         }
+        ,
+        {
+            "ruta" : "simpleshare",
+            "icon" : "add_alert",
+            "texto": "Simple Share"
+        }
+        
         
     ]
 }
