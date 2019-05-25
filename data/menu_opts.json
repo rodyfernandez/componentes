@@ -26,6 +26,12 @@
             "ruta" : "table",
             "icon" : "add_alert",
             "texto": "Tabla Ejemplo"
+        },
+        {
+            "ruta" : "filepicker",
+            "icon" : "add_alert",
+            "texto": "Abrir Archivo"
         }
+        
     ]
 }
